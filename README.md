@@ -13,3 +13,8 @@ $ shopify populate customers
 $ shopify populate draftorders
 $ shopify populate products
 ```
+```
+$ rbenv local 2.6.6
+$ bundle
+$ rails db:migrate
+```
