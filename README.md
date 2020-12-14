@@ -16,5 +16,7 @@ $ shopify populate products
 ```
 $ rbenv local 2.6.6
 $ bundle
+$ cp .env-example .env
+Edit .env
 $ rails db:migrate
 ```
